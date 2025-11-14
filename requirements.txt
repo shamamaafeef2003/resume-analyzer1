@@ -1,12 +1,16 @@
 fastapi
 uvicorn[standard]
 
+# LangChain + OpenAI (new versions, stable)
 langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-openai>=1.0.0
-langgraph>=0.0.62
+
+# OLD LangGraph (required for SqliteSaver)
+langgraph==0.0.62
 
 pydantic>=2.0.0
 python-dotenv
 requests
 tqdm
+
